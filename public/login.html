@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login</title>
+    <title></title>
     <!-- Dependencies -->
     <link rel="stylesheet" href="vendor/styles/normalize.css">
     <link rel="stylesheet" href="vendor/styles/default.css">
@@ -11,21 +11,47 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/icon.css">
     <link rel="stylesheet" href="styles/layout.css">
-    <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
     <h1>Grade Fellows</h1>
-    <fieldset>
-      <legend>Login<a href="/new">New User</a></legend>
-      <label for="username">username</label>
-      <input name="username" type="text">
-      <label for="password">password</label>
-      <input name="password" type="text">
-    </fieldset>
+    <nav id="login-nav">
+      <ul>
+        <li><a href=""></a></li>
+      </ul>
+    </nav>
+    <div id="login">
+      <fieldset>
+        <legend>Login<a href="/new">New User</a></legend>
+        <label>username</label>
+        <input name="username" type="text">
+        <label>password</label>
+        <input name="password" type="text">
+      </fieldset>
+    </div>
+    <div id="new">
+      <fieldset>
+        <legend>New Account</legend>
+        <label>First Name</label>
+        <input name="firstName" type="text">
+        <label>Last Name</label>
+        <input name="lastName" type="text">
+        <label>Email</label>
+        <input name="email" type="text">
+        <label>Password</label>
+        <input name="password" type="text">
+      </fieldset>
+    </div>
+    <!-- Dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="vendor/scripts/handlebars.js"></script>
+    <script src="vendor/scripts/highlight.pack.js"></script>
+    <script src="vendor/scripts/marked.js"></script>
+    <script src="vendor/scripts/page.js"></script>
+    <!-- Frameworks -->
+    <script src="scripts/models/home.js"></script>
     <!-- Routes -->
-    <script src="scripts/controllers/loginController.js"></script>
-    <script src="scripts/controllers/newController.js"></script>
-    <script src="scripts/controllers/homeController.js"></script>
-    <script src="scripts/controllers/routes.js"></script>
+    <script src="scripts/controllers/login/loginController.js"></script>
+    <script src="scripts/controllers/login/newController.js"></script>
+    <script src="scripts/controllers/login/loginRoutes.js"></script>
   </body>
 </html>

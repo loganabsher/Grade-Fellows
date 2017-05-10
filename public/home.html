@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!-- Dependencies -->
+    <link rel="stylesheet" href="vendor/styles/normalize.css">
+    <link rel="stylesheet" href="vendor/styles/default.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/icon.css">
+    <link rel="stylesheet" href="styles/layout.css">
+  </head>
+  <body>
+    <h1>Grade Fellows</h1>
+    <nav id="home-nav">
+      <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+      </ul>
+    </nav>
+    <div id="home">
+      <h1>Home</h1>
+    </div>
+    <div id="grades">
+      <h1>Grades</h1>
+    </div>
+    <div id="assignments">
+      <h1>Assignments</h1>
+    </div>
+    <!-- Dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="vendor/scripts/handlebars.js"></script>
+    <script src="vendor/scripts/highlight.pack.js"></script>
+    <script src="vendor/scripts/marked.js"></script>
+    <script src="vendor/scripts/page.js"></script>
+    <!-- Frameworks -->
+    <script src="scripts/models/home.js"></script>
+    <!-- Filters/Views -->
+    <script src="scripts/views/homeView.js"></script>
+    <!-- Routes -->
+    <script src="scripts/controllers/home/homeController.js"></script>
+    <script src="scripts/controllers/home/gradesController.js"></script>
+    <script src="scripts/controllers/home/assignmentsController.js"></script>
+    <script src="scripts/controllers/home/homeRoutes.js"></script>
+  </body>
+</html>
