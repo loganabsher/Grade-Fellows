@@ -1,0 +1,27 @@
+{
+  "name": "grade-fellows",
+  "version": "1.0.0",
+  "description": "grading system",
+  "main": "login.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loganabsher/Grade-Fellows.git"
+  },
+  "keywords": [
+    "grade",
+    "fellows"
+  ],
+  "author": "Logan Absher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loganabsher/Grade-Fellows/issues"
+  },
+  "homepage": "https://github.com/loganabsher/Grade-Fellows#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "page": "^1.7.1"
+  }
+}
